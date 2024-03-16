@@ -1,0 +1,284 @@
+// Sale Dicount If..Else example
+#include <stdio.h>
+
+int main()
+{
+    int b;
+    printf("Enter any charector \n");
+    scanf("%d",&b);
+    
+    if(b>=100 || b<= 1000){
+        printf("You are getting 10%% discount");
+    }
+    else if(b>= 1001 || b<=2000){
+        printf("You are getting 20%% discount");
+    } 
+    else if(b>= 2001 || b<=3000){
+        printf("You are getting 30%% discount");
+    }
+    else{
+        printf(" Sorry.. You are unable to get any discount.");
+    }
+    return 0;
+}
+----------------------------------------------------------X---------------------------------------------------X---------------------------
+
+
+//switch cases of Weekdays
+
+#include <stdio.h>
+
+int main()
+{
+    int z;
+    printf("Enter any number \n");
+    scanf("%d",&z);
+    
+    switch(z){
+        case 1 :
+        printf("Monday");
+        break;
+        
+        case 2 :
+        printf("Tuesday");
+        break;
+        
+        case 3:
+        printf("Wednesday");
+        break;
+        
+        case 4:
+        printf("Thrusday");
+        break;
+        
+        case 5:
+        printf("Friday");
+        break;
+        
+        case 6:
+        printf("Saturday");
+        break;
+        
+        case 7:
+        printf("Sunday");
+        break;
+        
+        default:
+        printf("Invalid Substance.");
+    }
+    return 0;
+    
+}
+
+----------------------X------------------------------------X-----------------------------------------X-----------------------------------
+
+
+//switch cases of MONTHS
+
+#include <stdio.h>
+
+int main()
+{
+    int M;
+    printf("Enter any number \n");
+    scanf("%d",&M);
+    
+    switch(M){
+        case 1 :
+        printf("JANUARY");
+        break;
+        
+        case 2 :
+        printf("FEBRUARY");
+        break;
+        
+        case 3:
+        printf("MARCH");
+        break;
+        
+        case 4:
+        printf("APRIL");
+        break;
+        
+        case 5:
+        printf("MAY");
+        break;
+        
+        case 6:
+        printf("JUNE");
+        break;
+        
+        case 7:
+        printf("JULY");
+        break;
+        
+         case 8:
+        printf("AUGUST");
+        break;
+        
+         case 9:
+        printf("SEPTEMBER");
+        break;
+        
+         case 10:
+        printf("OCTOBER");
+        break;
+        
+         case 11:
+        printf("NOVEMBER");
+        break;
+        
+         case 12:
+        printf("DECEMBER");
+        break;
+        
+        
+        default:
+        printf("Invalid Number.");
+    }
+    return 0;
+    
+}
+
+----------------------X----------------------------X------------------------------X-----------------------------------X-------------------
+
+
+//switch cases of Vowels
+
+#include <stdio.h>
+
+int main()
+{
+  
+    char A;
+    printf("enter your char:\n");
+    scanf("%c",&A);
+     switch(A){
+         
+         case 'A':
+         printf("vowel");
+         break;
+         
+         case 'E':
+         printf("vowel");
+         break;
+         
+         case 'I':
+         printf("vowel");
+         break;
+         
+         case 'O':
+         printf("vowel");
+         break;
+         
+         case 'U':
+         printf("vowel");
+         break;
+         
+         default:
+         printf("consonant");
+     }
+    return 0;
+}
+
+---------------------------X----------------------------X---------------------------X---------------------------------X-------------------
+
+
+//switch cases of NUMBERS FROM 1 TO 20
+
+#include <stdio.h>
+
+int main(){
+       int b;
+       printf("Enter any number from 1 to 20 \n");
+       scanf("%d",&b);
+       
+       switch(b){
+           
+           case 1:
+        printf("ONE");
+        break;
+        
+        case 2:
+        printf("TWO");
+        break;
+        
+        case 3:
+        printf("THREE");
+        break;
+        
+        case 4:
+        printf("FOUR");
+        break;
+        
+        case 5:
+        printf("FIVE");
+        break;
+        
+        case 6:
+        printf("SIX");
+        break;
+        
+        case 7:
+        printf("SEVEN");
+        break;
+        
+        case 8:
+        printf("EIGHT");
+        break;
+        
+        case 9:
+        printf("NINE");
+        break;
+        
+        case 10:
+        printf("TEN");
+         break;
+         
+        case 11:
+        printf("ELEVEN");
+        break;
+        
+        case 12:
+        printf("TWELVE");
+        break;
+        
+        case 13:
+        printf("THIRTEEN");
+        break;
+        
+        case 14:
+        printf("FOURTEEN");
+        break;
+        
+        case 15:
+        printf("FIFTEEN");
+        break;
+        
+        case 16:
+        printf("SIXTEEN");
+        break;
+        
+        case 17:
+        printf("SEVENTEEN");
+        break;
+        
+        case 18:
+        printf("EIGHTEEN");
+        break;
+        
+        case 19:
+        printf("NINETEEN");
+        break;
+        
+        case 20:
+        printf("TWENTY");
+         break;
+         
+         default:
+         printf("INVALID NUMBER");
+         break;
+       }
+       return 0;
+}
+
