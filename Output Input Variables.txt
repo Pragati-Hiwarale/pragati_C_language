@@ -1,0 +1,408 @@
+(1) #include <stdio.h>
+
+int main()
+{
+// Addition of two number
+    int a,b;
+    printf("Enter value 1 :\n");
+    scanf("%d",&a);
+    printf("Enter value 2 :\n");
+    scanf("%d",&b);
+    printf("Total number = %d", a+b);
+    return 0;
+}
+
+(2)#include <stdio.h>
+
+int main()
+{
+    //Substraction of two numbers
+    int a,b;
+    printf("Enter value 1 :\n");
+    scanf("%d",&a);
+    printf("Enter value 2 :\n");
+    scanf("%d",&b);
+    printf("Total number = %d", a-b);
+    return 0;
+}
+
+(3)#include <stdio.h>
+
+int main()
+{
+    // Multiplication of two numbers
+    int a,b;
+    printf("Enter value 1 = \n");
+    scanf("%d",&a);
+    printf("Enter Value 2 = \n");
+    scanf("%d", &b);
+    printf("Total Value = %d", a*b);
+    return 0;
+}
+
+(4)#include <stdio.h>
+
+int main()
+{
+    // Division of two numbers
+    int a,b;
+    printf("Enter value 1 = \n");
+    scanf("%d",&a);
+    printf("Enter Value 2 = \n");
+    scanf("%d", &b);
+    printf("Total Value = %d", a/b);
+    return 0;
+}
+--------------------------------------------x-------------------------------------------x------------------------------------------------
+
+(5)#include <stdio.h>
+
+int main()
+{
+    // Addition of four numbers
+    int a,b,c,d;
+    printf("Enter any 4 numbers :- \n");
+    scanf("%d %d %d %d",&a,&b,&c,&d);
+    printf("Total value = %d", a+b+c+d);
+    return 0;
+    
+}
+
+(6)#include <stdio.h>
+
+int main()
+{
+    // Substraction of four numbers
+    int a,b,c,d;
+    printf("Enter any 4 numbers :- \n");
+    scanf("%d %d %d %d",&a,&b,&c,&d);
+    printf("Total value = %d", a-b-c-d);
+    return 0;
+    
+}
+
+(7)#include <stdio.h>
+
+int main()
+{
+    // Multiplication of four numbers
+    int a,b,c,d;
+    printf("Enter any 4 numbers :- \n");
+    scanf("%d %d %d %d",&a,&b,&c,&d);
+    printf("Total value = %d", a*b*c*d);
+    return 0;
+    
+}
+
+(8)#include <stdio.h>
+
+int main()
+{
+    // Division of four numbers
+    int a,b,c,d;
+    printf("Enter any 4 numbers :- \n");
+    scanf("%d %d %d %d",&a,&b,&c,&d);
+    printf("Total value = %d", a/b/c/d);
+    return 0;
+    
+}
+
+--------------------------------X-------------------------------------------X----------------------------------------X--------------------
+
+
+(9)#include <stdio.h>
+
+int main()
+{
+    // float two numbers addition
+    int a,b;
+    printf("Enter 1 number :- \n");
+    scanf("%f",&a);
+    printf("Enter 2 number :- \n");
+    scanf("%f",&b);
+    printf("Total value = %f", a+b);
+    return 0;
+    
+}
+
+(10)#include <stdio.h>
+
+int main()
+{
+    // float two numbers substraction
+    int a,b;
+    printf("Enter 1 number :- \n");
+    scanf("%f",&a);
+    printf("Enter 2 number :- \n");
+    scanf("%f",&b);
+    printf("Total value = %d", a-b);
+    return 0;
+    
+}
+
+(11)#include <stdio.h>
+
+int main()
+{
+    // float two numbers Multiplication
+    int a,b;
+    printf("Enter 1 number :- \n");
+    scanf("%f",&a);
+    printf("Enter 2 number :- \n");
+    scanf("%f",&b);
+    printf("Total value = %d", a*b);
+    return 0;
+    
+}
+
+(12)#include <stdio.h>
+
+int main()
+{
+    // float two numbers Division
+    int a,b;
+    printf("Enter 1 number :- \n");
+    scanf("%f",&a);
+    printf("Enter 2 number :- \n");
+    scanf("%f",&b);
+    printf("Total value = %f", a/b);
+    return 0;
+    
+}
+
+(13)#include <stdio.h>
+
+int main()
+{
+    // float Four numbers Addition
+    int a,b,c,d;
+    printf("Enter any 4 numbers  :- \n");
+    scanf("%f %f %f %f",&a, &b, &c, &d);
+    printf("Total value = %f", a+b+c+d);
+    return 0;
+    
+}
+
+(14)#include <stdio.h>
+
+int main()
+{
+    // float Four numbers Substraction
+    int a,b,c,d;
+    printf("Enter any 4 numbers  :- \n");
+    scanf("%f %f %f %f",&a, &b, &c, &d);
+    printf("Total value = %f", a-b-c-d);
+    return 0;
+    
+}
+
+(15)#include <stdio.h>
+
+int main()
+{
+    // float Four numbers Multiplication
+    int a,b,c,d;
+    printf("Enter any 4 numbers  :- \n");
+    scanf("%f %f %f %f",&a, &b, &c, &d);
+    printf("Total value = %f", a*b*c*d);
+    return 0;
+    
+}
+
+(16)#include <stdio.h>
+
+int main()
+{
+    // float Four numbers Division
+    int a,b,c,d;
+    printf("Enter any 4 numbers  :- \n");
+    scanf("%f %f %f %f",&a, &b, &c, &d);
+    printf("Total value = %f", a/b/c/d);
+    return 0;
+    
+}
+
+------------------------X---------------------------------X-----------------------------------------------X-------------------------------
+
+
+(17)#include <stdio.h>
+
+int main()
+{
+    // Charector values taking
+    char a;
+    printf("Enter a charector :- \n");
+    scanf("%c",&a);
+    printf("Actual charector %c", a);
+    return 0;
+    
+}
+
+(18)#include <stdio.h>
+
+int main()
+{
+    // Charector values taking
+    char X;
+    printf("Enter a charector :- \n");
+    scanf("%c",&X);
+    printf("Actual charector %c", X);
+    return 0;
+    
+}
+
+----------------X------------------------------------------------X-----------------------------------------X------------------------------
+
+IF.. ELSE CONDITIONS 
+
+#include <stdio.h>
+
+int main()
+{
+  //If..else Condition
+  int num1 = 45, num2 = 50;
+  if (num1 > num2){
+      printf("%d", num1 + num2);
+  }
+  else{
+      printf("%d",num1-num2);
+  }
+  return 0;
+}
+
+#include <stdio.h>
+
+int main()
+{
+  //If..else Condition
+  int num1 = 105, num2 = 1256;
+  if (num1 < num2){
+      printf("%d", num1 + num2);
+  }
+  else{
+      printf("%d",num1-num2);
+  }
+  return 0;
+}
+
+
+#include <stdio.h>
+
+int main()
+{
+  //If..else Condition
+  int num1 = 1256, num2 = 1526;
+  if (num1 < num2){
+      printf("%d", num1 * num2);
+  }
+  else{
+      printf("%d",num1/num2);
+  }
+  return 0;
+}
+
+#include <stdio.h>
+
+int main()
+{
+  //If..else Condition
+  int num1 = 698, num2 = 756;
+  if (num1 > num2){
+      printf("%d", num1 * num2);
+  }
+  else{
+      printf("%d",num1/num2);
+  }
+  return 0;
+}
+
+
+#include <stdio.h>
+
+int main()
+{
+  //If..else Condition
+  int num1 = 6128, num2 = 3576;
+  if (num1 == num2){
+      printf("%d", num1 + num2);
+  }
+  else{
+      printf("%d",num1-num2);
+  }
+  return 0;
+}
+
+#include <stdio.h>
+
+int main()
+{
+  //If..else Condition
+  int num1 = 6128, num2 = 6128;
+  if (num1 == num2){
+      printf("%d", num1 / num2);
+  }
+  else{
+      printf("%d",num1*num2);
+  }
+  return 0;
+}
+
+#include <stdio.h>
+
+int main()
+{
+  //If..else Condition
+  int num1 = 7828, num2 = 6128;
+  if (num1 <=num2){
+      printf("%d", num1 / num2);
+  }
+  else{
+      printf("%d",num1*num2);
+  }
+  return 0;
+}
+
+#include <stdio.h>
+
+int main()
+{
+  //If..else Condition
+  int num1 = 7828, num2 = 7828;
+  if (num1 <=num2){
+      printf("%d", num1 + num2);
+  }
+  else{
+      printf("%d",num1-num2);
+  }
+  return 0;
+}
+
+#include <stdio.h>
+
+int main()
+{
+  //If..else Condition
+  int num1 = 123, num2 = 567;
+  if (num1 >= num2){
+      printf("%d", num1 + num2);
+  }
+  else{
+      printf("%d",num1-num2);
+  }
+  return 0;
+}
+
+#include <stdio.h>
+
+int main()
+{
+  //If..else Condition
+  int num1 = 1978, num2 = 2567;
+  if (num1 >= num2){
+      printf("%d", num1 * num2);
+  }
+  else{
+      printf("%d",num1/num2);
+  }
+  return 0;
+}
