@@ -1,0 +1,93 @@
+#include <stdio.h>
+//Addition with two values
+int main ()
+{
+    int a = 100, b = 120;
+    printf("%d \n", a+b);
+    printf("%d + %d = %d",a,b, a + b);
+    return 0;
+}
+
+#include <stdio.h>
+//Addition with three values
+int main ()
+{
+    int a = 10, b = 20, c= 40;
+    printf("%d \n", a+b+c);
+    printf("%d + %d + %d = %d",a,b,c, a + b + c);
+    return 0;
+}
+
+#include <stdio.h>
+//Addition with Four values
+int main ()
+{
+    int a = 1070, b = 2120, c= 312,d= 4120;
+    printf("%d \n", a+b+c+d);
+    printf("%d + %d + %d +%d = %d",a,b,c,d, a + b+ c+d);
+    return 0;
+}
+----------------------X--------------------------X-----------------X----------------X-----------------X---------------X-----------------
+
+#include <stdio.h>
+//Substraction with two values
+int main ()
+{
+    int a = 450, b = 600;
+    printf("%d \n", a-b);
+    printf("%d - %d= %d",a,b, a - b);
+    return 0;
+}
+
+#include <stdio.h>
+//Substraction with three values
+int main ()
+{
+    int a = 700, b = 560,c=120;
+    printf("%d \n", a-b-c);
+    printf("%d - %d - %d= %d",a,b,c, a - b -c);
+    return 0;
+}
+-------------X-----------------------------X---------------------X-------------------------X----------------X-----------------X-----------
+
+#include <stdio.h>
+//Division with two values
+int main ()
+{
+    int a = 61, b = 6;
+    printf("%d \n", a/b);
+    printf("%d / %d= %d",a,b, a / b );
+    return 0;
+}
+
+#include <stdio.h>
+//Division with three values
+int main ()
+{
+    int a = 145, b = 95,c=31;
+    printf("%d \n", a/b/c);
+    printf("%d / %d / %d= %d",a,b,c, a / b /c);
+    return 0;
+}
+
+------------------X-----------------------------------------X--------------------------------------------X--------------------------------
+
+#include <stdio.h>
+//Multiplication with two values
+int main ()
+{
+    int a = 985, b = 741;
+    printf("%d \n", a*b);
+    printf("%d * %d= %d",a,b, a * b );
+    return 0;
+}
+
+#include <stdio.h>
+//Multiplication with threevalues
+int main ()
+{
+    int a = 94, b = 52, c = 3;
+    printf("%d \n", a*b*c);
+    printf("%d *%d* %d= %d",a,b,c, a * b *c );
+    return 0;
+}
