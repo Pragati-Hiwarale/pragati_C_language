@@ -1,0 +1,164 @@
+//RUNTIME VALUE IN 5 values
+#include <stdio.h>
+
+int main()
+{
+    int a,arr[5];
+    
+    printf("Enter any five numbers: ");
+    for(a=0;a<5;a++){
+        scanf("%d",&arr[a]);
+    }
+        printf("Array Element = \n");
+          for(a=0;a<5;a++){
+              printf("[%d] = %d\n",a, arr[a]);
+          }
+          
+    return 0;
+}
+
+OUTPUT :-
+Enter any five numbers: 10
+20
+30
+40
+50
+Array Element = 
+[0] = 10
+[1] = 20
+[2] = 30
+[3] = 40
+[4] = 50
+
+----------------------X--------------------------------X------------------------X-------------------------X----------------------------
+
+RUNTIME VALUE with 10 values
+#include <stdio.h>
+
+int main()
+{
+    int n,arr[10];
+    
+    printf("Enter any TEN numbers: ");
+    for(n=0;n<10;n++){
+        scanf("%d",&arr[n]);
+    }
+        printf("Array Element = \n");
+          for(n=0;n<10;n++){
+              printf("[%d] = %d\n",n, arr[n]);
+          }
+          
+    return 0;
+}
+
+OUTPUT :- 
+Enter any TEN numbers: 10
+30
+40
+50
+60
+70
+80
+90
+100
+Array Element = 
+[0] = 10
+[1] = 20
+[2] = 30
+[3] = 40
+[4] = 50
+[5] = 60
+[6] = 70
+[7] = 80
+[8] = 90
+[9] = 100
+
+------------------------------X-----------------------------------X-------------------------------------X---------------------------------
+
+//RUNTIME VALUE with 15 values
+#include <stdio.h>
+
+int main()
+{
+    int X,arr[15];
+    
+    printf("Enter any 15 numbers: ");
+    for(X=0;X<15;X++){
+        scanf("%d",&arr[X]);
+    }
+        printf("Array Element = ");
+          for(X=0;X<15;X++){
+              printf("[%d] = %d\n",X, arr[X]);
+          }
+          
+    return 0;
+}
+
+OUTPUT :- 
+Enter any 15 numbers: 10
+12
+12
+15
+16
+18
+18205
+256
+98
+148
+63
+78
+5
+2
+3
+Array Element = [0] = 10
+[1] = 12
+[2] = 14
+[3] = 15
+[4] = 16
+[5] = 18
+[6] = 1
+[7] = 256
+[8] = 98
+[9] = 148
+[10] = 63
+[11] = 78
+[12] = 5
+[13] = 2
+[14] = 3
+
+------------------------X--------------------------------X-----------------------------------X----------------------------------------
+
+//ARRAY charectors
+
+#include <stdio.h>
+
+int main()
+{
+    char a,arr[5];
+    printf("Enter any 4 charectors \n ");
+    for(a=0;a<5;a++){
+        scanf(" %c",&arr[a]);
+     }
+        printf("Array Element = \n ");
+          for(a=0;a<5;a++){
+              printf("[%d] = %c\n",a, arr[a]);
+          }
+          
+    return 0;
+}
+
+OUTPUT:- 
+Enter any 4 charectors 
+ a
+b
+c
+d
+e
+Array Element = 
+ [0] = a
+[1] = b
+[2] = c
+[3] = d
+[4] = e
+
+
