@@ -1,0 +1,191 @@
+//INTEGERS Static
+#include <stdio.h>
+
+int main()
+{
+    int arr[]={4,5,6,7,8,9};
+    for(int a =0;a<6;a++){
+            printf("[%d]=%d\n",a,arr[a]);
+        }
+        printf("\n");
+    
+    return 0;
+}
+output
+[0]=4
+[1]=5
+[2]=6
+[3]=7
+[4]=8
+[5]=9
+
+-------------------X--------------------------------X------------------------------X--------------------------X--------------------------
+
+#include <stdio.h>
+
+int main()
+{
+    int arr[]={125,789,265,789,3697,12563,7892,12,364,420};
+    for(int p=0;p<10;p++){
+            printf("[%d]=%d\n",p,arr[p]);
+        }
+        printf("\n");
+    
+    return 0;
+}
+OUTPUT:-
+[0]=125
+[1]=789
+[2]=265
+[3]=789
+[4]=3697
+[5]=12563
+[6]=7892
+[7]=12
+[8]=364
+[9]=420
+
+-------------------------X-----------------------------X-------------------------X-------------------------X---------------------------
+//CHARECTOR STATIC
+
+
+#include <stdio.h>
+
+int
+main ()
+{
+  char names[] = { 'a', 'b', 'c', 'd', 'e', 'f' };
+  int x;
+  for (x = 0; x < 6; x++)
+    {
+      printf ("[%d]=%c\n", x, names[x]);
+    }
+  return 0;
+}
+OUTPUT:-
+[0]=a
+[1]=b
+[2]=c
+[3]=d
+[4]=e
+[5]=f
+
+--------------------------------x------------------------------------------x--------------------------------------x----------------------
+
+//Dynamic Integers
+
+
+#include <stdio.h>
+
+int main()
+{
+    int i,arr[10];
+    printf("Enter any number: ");
+    for(i=0;i<10;i++){
+        scanf("%d\n",&arr[i]);
+    }
+    printf("Array List is:-\n");
+    for(i=0;i<10;i++){
+        printf("{%d}=%d\n",i,arr[i]);
+    }
+
+    
+    return 0;
+}
+Output:- 
+Enter any number: 10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+00
+Array List is:-
+{0}=10
+{1}=9
+{2}=8
+{3}=7
+{4}=6
+{5}=5
+{6}=4
+{7}=3
+{8}=2
+{9}=1
+
+------------------------X-------------------------X-----------------------------X----------------------------X---------------------------
+
+#include <stdio.h>
+
+int main()
+{
+    int K,arr[4];
+    printf("Enter any number: ");
+    for(K=0;K<4;K++){
+        scanf("%d\n",&arr[K]);
+    }
+    printf("Array List is:-\n");
+    for(K=0;K<4;K++){
+        printf("{%d}=%d\n",K,arr[K]);
+    }
+
+    
+    return 0;
+}
+OUTPUT:-
+Enter any number: 8
+3
+8
+9
+4
+Array List is:-
+{0}=8
+{1}=3
+{2}=8
+{3}=9
+
+------------------------------X----------------------------------X---------------------------------X-------------------------------------
+//CHARECTOR DYNAMIC
+
+
+#include <stdio.h>
+
+int main()
+{
+    char arr[7];
+    int q;
+    printf("Enter any 7 charectors:\n ");
+    for(q=0;q<7;q++){
+        scanf("%c\n",&arr[q]);
+    }
+    
+    printf("Array Charectors \n");
+    for(q=0;q<7;q++){
+        printf("{%d}=%c\n",q,arr[q]);
+    }
+    
+    
+    return 0;
+}
+
+output:-
+Enter any 7 charectors:
+ p
+r
+a
+g
+a
+t
+i
+h
+Array Charectors 
+{0}=p
+{1}=r
+{2}=a
+{3}=g
+{4}=a
+{5}=t
+{6}=i
