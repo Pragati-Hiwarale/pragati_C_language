@@ -1,0 +1,264 @@
+//IF.. ELSE CONDITIONS  of week days
+
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("Enter any number between 1 to 7 %d \n");
+    scanf("%d",&num);
+    
+    if (num ==1){
+        printf("It's a Monday.");
+    }
+    else if(num==2){
+        printf("It's a Tuesday");
+    }
+    else if(num==3){
+        printf("It is Wednesday.");
+    }
+    else if(num == 4){
+        printf("Heyy there It was Thrusday.");
+    }
+    else if(num==5){
+        printf("Hello It is Friday.");
+    }
+    else if (num == 6){
+        printf(" hello Its Saturday weekend");
+    }
+    else if(num==7){
+        printf(" Its a Happy weekend , Sunday.");
+    }
+    else{
+        printf(" Sorry we couldn't find that, Try again.");
+    }
+    return 0;
+}
+
+------------------------X---------------------------------------------X--------------------------------------------X-----------------------------------
+
+//IF.. ELSE CONDITIONS  of Calender Months
+
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("Enter any number between 1 to 12 %d \n");
+    scanf("%d",&num);
+    
+    if (num ==1){
+        printf("Heyy January!");
+    }
+    else if(num==2){
+        printf("It is February");
+    }
+    else if(num==3){
+        printf("March");
+    }
+    else if(num == 4){
+        printf("April.");
+    }
+    else if(num==5){
+        printf("Hello It is May.");
+    }
+    else if (num == 6){
+        printf(" Hello, I am June");
+    }
+    else if(num==7){
+        printf(" Its a July.");
+    }
+    else if(num==8){
+        printf(" Hello August.");
+    }
+    else if(num==9){
+        printf(" Hey September");
+    }
+    else if(num==10){
+        printf(" October here..!");
+    }
+    else if(num==11){
+        printf("Yes It's a November.");
+    }
+    else if(num==12){
+        printf("December .. Merry Christmas");
+    }
+    else{
+        printf("Could not find that Month .");
+    }
+    return 0;
+}
+
+--------------------------X-------------------------------------------X----------------------------------X-------------------------------------------
+
+//IF.. ELSE CONDITIONS  of NUMBER 1 - 20
+
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("Enter any number between 1 to 12 %d \n");
+    scanf("%d",&num);
+    
+    if (num ==1){
+        printf("ONE");
+    }
+    else if(num==2){
+        printf("TWO");
+    }
+    else if(num==3){
+        printf("THREE");
+    }
+    else if(num == 4){
+        printf("FOUR");
+    }
+    else if(num==5){
+        printf("FIVE");
+    }
+    else if (num == 6){
+        printf("SIX");
+    }
+    else if(num==7){
+        printf(" SEVEN.");
+    }
+    else if(num==8){
+        printf(" EIGHT");
+    }
+    else if(num==9){
+        printf(" NINE");
+    }
+    else if(num==10){
+        printf(" TEN");
+    }
+    else if(num==11){
+        printf("ELEVEN.");
+    }
+    else if(num==12){
+        printf("TWELVE");
+    }
+    else if(num==13){
+        printf("THIRTEEN");
+    }
+    else if(num==14){
+        printf("FOURTEEN");
+    }
+    else if(num==15){
+        printf("FIFEEN");
+    }
+    else if(num==16){
+        printf("SIXTEEN");
+    }
+    else if(num==17){
+        printf("SEVENTEEN");
+    }
+    else if(num==18){
+        printf("EIGHTEEN");
+    }
+    else if(num==19){
+        printf("NINETEEN");
+    }
+    else if(num==20){
+        printf("TWENTY");
+    }
+    else{
+        printf("Number not find.");
+    }
+    return 0;
+}
+
+-----------------------X---------------------------------X-----------------------------------X----------------------------------X----------------------
+
+//IF.. ELSE CONDITIONS  of Alphabet A TO Z
+
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("Enter any number between 1 to 12 %d \n");
+    scanf("%d",&num);
+    
+    if (num ==1){
+        printf("A");
+    }
+    else if(num==2){
+        printf("B");
+    }
+    else if(num==3){
+        printf("C");
+    }
+    else if(num == 4){
+        printf("D");
+    }
+    else if(num==5){
+        printf("E");
+    }
+    else if (num == 6){
+        printf("F");
+    }
+    else if(num==7){
+        printf("G.");
+    }
+    else if(num==8){
+        printf("H");
+    }
+    else if(num==9){
+        printf("I");
+    }
+    else if(num==10){
+        printf(" J");
+    }
+    else if(num==11){
+        printf("K.");
+    }
+    else if(num==12){
+        printf("L");
+    }
+    else if(num==13){
+        printf("M");
+    }
+    else if(num==14){
+        printf("N");
+    }
+    else if(num==15){
+        printf("O");
+    }
+    else if(num==16){
+        printf("P");
+    }
+    else if(num==17){
+        printf("Q");
+    }
+    else if(num==18){
+        printf("R");
+    }
+    else if(num==19){
+        printf("S");
+    }
+    else if(num==20){
+        printf("T");
+    }
+    else if(num==21){
+        printf("U");
+    }
+    else if(num==22){
+        printf("V");
+    }
+    else if(num==23){
+        printf("W");
+    }
+    else if(num==24){
+        printf("X");
+    }
+    else if(num==25){
+        printf("Y");
+    }
+    else if(num==26){
+        printf("Z");
+    }
+    else{
+        printf("No Alphabet found.");
+    }
+    return 0;
+}
