@@ -1,0 +1,59 @@
+IF.. ELSE CONDITIONS 
+
+#include <stdio.h>
+USING 'AND' WITH COMPARISON OPERATORS
+int main()
+{
+    int a = 650, b = 320;
+    if (a >= 700 &&  b <= 400){
+        printf("This condition is True.");
+    }
+    else{
+        printf("This condition is False.");
+    }
+    return 0;
+}
+
+#include <stdio.h>
+
+int main()
+{
+    int a = 650, b = 320;
+    if (a <= 700 &&  b >= 260){
+        printf("This condition is True.");
+    }
+    else{
+        printf("This condition is False.");
+    }
+    return 0;
+}
+
+USING 'OR' WITH COMPARISON OPERATORS
+
+#include <stdio.h>
+
+int main()
+{
+    int a = 960, b = 790;
+    if (a <= 700 ||  b >= 460){
+        printf("This condition is True.");
+    }
+    else{
+        printf("This condition is False.");
+    }
+    return 0;
+}
+
+#include <stdio.h>
+
+int main()
+{
+    int a = 1230, b = 460;
+    if (a == 700 ||  b != 460){
+        printf("This condition is True.");
+    }
+    else{
+        printf("This condition is False.");
+    }
+    return 0;
+}
