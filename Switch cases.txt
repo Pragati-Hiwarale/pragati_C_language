@@ -1,0 +1,304 @@
+
+
+#include <stdio.h>
+
+int main(){
+    int ch, a, b;
+    printf("Enter any numbers\n");
+    scanf("%d %d", &a,&b);
+    
+    printf("Enter your choice\n");
+    scanf("%d",&ch);
+    
+    switch(ch){
+        case 1:
+        printf("Addition of two numbers %d\n",a+b);
+        break;
+        
+        case 2:
+        printf("substraction = %d\n",a-b);
+        break;
+        
+        case 3:
+        printf("Multiplication = %d\n",a*b);
+        break;
+        
+        case 4: 
+        printf("Division = %d\n",a/b);
+        break;
+        
+        default:
+        printf("your Number is unvalid");
+        break;
+    }
+    
+}
+
+output:- 
+Enter any numbers
+896
+226
+Enter your choice
+1
+Addition of two numbers 1122
+
+
+-----------------------------------X-------------------------------------------X---------------------------------------X------------------
+
+#include <stdio.h>
+
+int main(){
+    int ch;
+    
+    printf("Enter your choice\n");
+    scanf("%d",&ch);
+    
+    switch(ch){
+        case 1:
+        printf("Monday");
+        break;
+        
+        case 2:
+        printf("Tuesday");
+        break;
+        
+        case 3:
+        printf("Wednesday");
+        break;
+        
+        case 4: 
+        printf("Thrusday");
+        break;
+        
+        case 5:
+        printf("Friday");
+        break;
+        
+        case 6:
+        printf("Saturday");
+        break;
+        
+        default:
+        printf("Error");
+        break;
+    }
+    
+}
+
+OUTPUT:- 
+Enter your choice
+4
+Thrusday
+
+----------------------------X-----------------------------------------------X---------------------------------------X---------------------
+
+
+#include <stdio.h>
+
+int main(){
+    int ch;
+    
+    printf("Enter your choice\n");
+    scanf("%d",&ch);
+    
+    switch(ch){
+        case 1:
+        printf("January");
+        break;
+        
+        case 2:
+        printf("February");
+        break;
+        
+        case 3:
+        printf("March");
+        break;
+        
+        case 4: 
+        printf("April");
+        break;
+        
+        case 5:
+        printf("May");
+        break;
+        
+        case 6:
+        printf("June");
+        break;
+        
+        case 7:
+        printf("July");
+        break;
+        
+        case 8:
+        printf("August");
+        break;
+        
+        case 9:
+        printf("September");
+        break;
+        
+        case 10:
+        printf("October");
+        break;
+        
+        case 11:
+        printf("November");
+        break;
+        
+        case 12:
+        printf("December");
+        break;
+        
+        default:
+        printf("Enter properly");
+        break;
+    }
+    
+}
+
+Output:-
+Enter your choice
+45
+Enter properly
+
+-----------------------------------X-----------------------------------------X------------------------------------------------------------
+
+
+
+#include <stdio.h>
+
+int main(){
+    int ch;
+    
+    printf("Enter your choice\n");
+    scanf("%d",&ch);
+    
+    switch(ch){
+        case 1:
+        printf("One");
+        break;
+        
+        case 2:
+        printf("Two");
+        break;
+        
+        case 3:
+        printf("Three");
+        break;
+        
+        case 4: 
+        printf("Four");
+        break;
+        
+        case 5:
+        printf("Five");
+        break;
+        
+        case 6:
+        printf("Six");
+        break;
+        
+        case 7:
+        printf("Seven");
+        break;
+        
+        case 8:
+        printf("Eight");
+        break;
+        
+        case 9:
+        printf("Nine");
+        break;
+        
+        case 10:
+        printf("Ten");
+        break;
+        
+        case 11:
+        printf("Eleven");
+        break;
+        
+        case 12:
+        printf("Twelve");
+        break;
+        
+        case 13:
+        printf("Thirteen");
+        break;
+        
+        case 14:
+        printf("Forteen");
+        break;
+        
+        case 15:
+        printf("Fifteen");
+        break; 
+        
+        case 16:
+        printf("Sixteen");
+        break;
+        
+        case 17:
+        printf("Seventeen");
+        break;
+        
+        case 18:
+        printf("Eighteen");
+        break;
+        
+        case 19:
+        printf("Nineteen");
+        break;
+        
+        case 20:
+        printf("Twenty");
+        break;
+
+        default:
+        printf("Enter Correct number");
+        break;
+    }
+    
+}
+
+Output:-
+Enter your choice
+21
+Enter Correct number
+
+--------------------------------------X-----------------------------------------------X-------------------------------------------------
+
+
+#include <stdio.h>
+
+int main() {
+    char ch;
+    printf("Enter a character: ");
+    scanf("%c", &ch);
+
+    switch (ch) {
+        case 'a':
+        case 'A':
+        case 'e':
+        case 'E':
+        case 'i':
+        case 'I':
+        case 'o':
+        case 'O':
+        case 'u':
+        case 'U':
+            printf("%c is a vowel.\n", ch);
+            break;
+        default:
+            printf("%c is a consonant.\n", ch);
+            break;
+    }
+
+    return 0;
+}
+
+Output:- 
+Enter a character: p
+p is a consonant.
+
